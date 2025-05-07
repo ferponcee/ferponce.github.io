@@ -1,1 +1,132 @@
-Hola mundo
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Fernanda Ponce</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fdfbfb;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #5884C4, #F87753);
+      padding: 2rem;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+    }
+    .profile-pic {
+      text-align: center;
+      margin-top: -2rem;
+    }
+    .profile-pic img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .container {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-left: 5px solid #F87753;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
+    }
+    .project {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+    }
+    .project h3 {
+      margin-top: 0;
+      color: #5884C4;
+    }
+    .project a {
+      text-decoration: none;
+      color: #D5507C;
+    }
+    footer {
+      background: #f4d0cb;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fernanda Ponce Maciel</h1>
+    <p>Estudiante de Ingeniería en Tecnologías Computacionales</p>
+    <p>21 años | Tec de Monterrey, Campus Estado de México</p>
+    <p>Correo: fernanda.ponce.maciel@gmail.com | Tel: 5612020685</p>
+  </header>
+
+  <div class="profile-pic">
+    <img src="images/fernanda.jpg" alt="Foto de Fernanda Ponce">
+  </div>
+
+  <div class="container">
+    <section class="section">
+      <h2>Proyectos Destacados</h2>
+      <div class="project">
+        <h3>VitaSense-Pro</h3>
+        <p>Wearable IoT para el monitoreo de signos vitales en tiempo real.</p>
+        <a href="docs/vitasense.pdf" target="_blank">Ver documento</a>
+      </div>
+      <div class="project">
+        <h3>Final Report of Problem Situation</h3>
+        <p>Análisis de la industria automotriz con enfoque en sistemas ciberfísicos.</p>
+        <a href="docs/problema-industria.pdf" target="_blank">Ver documento</a>
+      </div>
+      <div class="project">
+        <h3>Zazil</h3>
+        <p>Plataforma móvil para la salud menstrual con integración Firebase y análisis de usuarios.</p>
+        <a href="docs/zazil.pdf" target="_blank">Ver documento</a>
+      </div>
+      <div class="project">
+        <h3>Diseño de red - OMI</h3>
+        <p>Diseño de infraestructura para la Olimpiada Mexicana de Informática.</p>
+        <a href="docs/omi-red.pdf" target="_blank">Ver documento</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Reflexión</h2>
+      <p>Las evidencias que más me retaron fueron el desarrollo del wearable VitaSense-Pro y el análisis de la industria automotriz con enfoque en sistemas ciberfísicos. Ambas requerían integrar múltiples áreas técnicas y pensamiento crítico. Están relacionadas por su enfoque en resolver problemas reales mediante tecnología. Me siento orgullosa de haber abordado estos retos con profesionalismo, y quiero seguir fortaleciendo mi conocimiento técnico, metodologías ágiles y experiencia en proyectos interdisciplinarios para completar mi formación como ingeniera en software.</p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Fernanda Ponce Maciel. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
+
