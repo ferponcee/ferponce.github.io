@@ -4,30 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portafolio de Fernanda Ponce</title>
+  <link rel="icon" href="images/fernanda.jpg" type="image/jpeg">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Montserrat', sans-serif;
-      background-color: #fdfbfb;
+      background-color: #fffdfd;
       color: #333;
     }
     header {
       background: linear-gradient(135deg, #5884C4, #F87753);
-      padding: 2rem;
+      padding: 2.5rem 1rem 1rem;
       text-align: center;
       color: white;
+      animation: fadeIn 2s ease;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
+      letter-spacing: 1px;
     }
     header p {
-      margin: 0.5rem 0 0;
+      margin: 0.4rem 0;
+      font-size: 1rem;
     }
     .profile-pic {
       text-align: center;
-      margin-top: -2rem;
+      margin-top: -3rem;
+      animation: fadeIn 2s ease 0.5s both;
     }
     .profile-pic img {
       width: 150px;
@@ -35,15 +40,12 @@
       object-fit: cover;
       border-radius: 50%;
       border: 4px solid white;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     }
     .container {
       padding: 2rem;
       max-width: 900px;
       margin: auto;
-    }
-    .section {
-      margin-bottom: 2rem;
     }
     h2 {
       border-left: 5px solid #F87753;
@@ -53,9 +55,13 @@
     .project {
       background: #fff;
       padding: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       margin-bottom: 1rem;
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: translateY(-3px);
     }
     .project h3 {
       margin-top: 0;
@@ -64,12 +70,14 @@
     .project a {
       text-decoration: none;
       color: #D5507C;
+      font-weight: bold;
     }
     footer {
       background: #f4d0cb;
       text-align: center;
       padding: 1rem;
-      margin-top: 2rem;
+      margin-top: 3rem;
+      font-size: 0.9rem;
     }
     @media (max-width: 600px) {
       header h1 {
@@ -79,12 +87,18 @@
         padding: 1rem;
       }
     }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Fernanda Ponce Maciel</h1>
     <p>Estudiante de Ingeniería en Tecnologías Computacionales</p>
+    <p>Becaria 100% Coca-Cola FEMSA – Tec de Monterrey</p>
+    <p>Integrante del equipo de integración IT SAP S/4HANA</p>
     <p>21 años | Tec de Monterrey, Campus Estado de México</p>
     <p>Correo: fernanda.ponce.maciel@gmail.com | Tel: 5612020685</p>
   </header>
@@ -116,6 +130,11 @@
         <p>Diseño de infraestructura para la Olimpiada Mexicana de Informática.</p>
         <a href="docs/omi-red.pdf" target="_blank">Ver documento</a>
       </div>
+      <div class="project">
+        <h3>CV completo</h3>
+        <p>Consulta o descarga mi currículum actualizado con experiencia, habilidades y certificaciones.</p>
+        <a href="docs/CVFer_Ponce.pdf" target="_blank">Ver CV</a>
+      </div>
     </section>
 
     <section class="section">
@@ -129,4 +148,3 @@
   </footer>
 </body>
 </html>
-

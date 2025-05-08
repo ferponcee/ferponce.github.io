@@ -35,7 +35,7 @@ Las evidencias más desafiantes fueron **VitaSense-Pro** y el análisis de la **
 ## 🌐 Ver Portafolio
 
 👉 Puedes ver el sitio en línea aquí:  
-**[https://ferponcee.github.io](https://ferponcee.github.io)**
+**[https://ferponcee.github.io](https://ferponcee.github.io/ferponce.github.io/)**
 
 ---
 
